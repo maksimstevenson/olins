@@ -1,0 +1,157 @@
+.top_slider figure {
+  position: relative;
+}
+
+.top_slider figure figcaption .info::after {
+  content: "olins";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 23.3125rem;
+  color: #73495b;
+  opacity: 0.05;
+}
+
+.top_slider figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+.top_slider figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  max-width: 994px;
+  width: 100%;
+  position: relative;
+  padding-left: 5.625rem;
+  box-sizing: border-box;
+  margin-top: -90px;
+}
+
+.category {
+  color: #7f5568;
+  font-size: 1.3125rem;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  line-height: 1;
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.info h2 {
+  font-size: 2.8125rem;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.info .readmore {
+  display: flex;
+  align-items: center;
+  margin-top: 1.25rem;
+  color: #7f5568;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: -90px;
+}
+
+.details {
+  text-decoration: underline;
+}
+
+.details:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  position: relative;
+}
+
+.header nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background: rgb(115, 72, 92, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .nav-menu li {
+  display: flex;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header .nav-menu li:hover {
+  color: #e5c883;
+  transition: all 300ms ease-in-out;
+}
+
+.logo-nav {
+  color: #ffffff;
+  font-size: 43px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  margin-left: 45px;
+  display: block;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.cart a {
+  display: block;
+  width: 21px;
+  height: 21px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 21px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7f5568;
+  background: #e5c883;
+  margin-left: 5px;
+}
+
+.cart a:hover {
+  background: #ffffff;
+  transition: all 300ms ease-in-out;
+}
